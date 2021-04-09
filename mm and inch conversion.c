@@ -25,7 +25,7 @@ main()                                                              //主函数
 	    printf("英寸     毫米\n");
         inch = n;
         mm = inch * 25.4;                                           //转换公式：inch change mm
-	    printf("%3.3f   %6.3f\n", inch, mm);                        //%x.xf 前面的x为显示的宽度（一般不起作用），后面的x为显示输出的小数位
+	    printf("%3.3f   %6.3f\n", inch, mm);
 	    }
 	}
     if (y == 2)                                                     //条件判断 为2则运行mm转换inch
